@@ -14,7 +14,6 @@ st.write(
     "will guess whether the writer feels positive or negative."
 )
 
-
 # Streamlit re-runs this whole file every time you click something.
 # @st.cache_resource makes the model load ONE time and then reuse it.
 @st.cache_resource
@@ -29,7 +28,7 @@ classifier = load_model()
 
 text = st.text_area(
     "Enter a comment:",
-    "The mac and cheese in the dining hall was amazing today!",
+    "The fried chicken was good today!",
 )
 
 if st.button("Analyze"):
