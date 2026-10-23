@@ -3,6 +3,10 @@
 ## Overview
 This project demonstrates how to use Hugging Face Transformers to perform sentiment analysis on text. The application allows users to enter text and analyze its sentiment using a pretrained machine learning model.
 
+## Live Demo
+Try the application here: <a href = "https://amgainhuggingface.streamlit.app/">Hugging Face Sentiment Analyzer</a>
+
+
 ## Technologies Used
 - Python
 - Hugging Face Transformers
